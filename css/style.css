@@ -207,6 +207,7 @@ form{
   font-size: 20px;
   border: 2px rgb(0, 94, 128) solid;
   border-radius: 25px;
+  padding: 0.2rem;
   transition: background-color 0.2s ease;
 }
 form{
