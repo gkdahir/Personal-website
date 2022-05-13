@@ -1,0 +1,272 @@
+body{
+    margin:0;
+    background-color: #88b788;
+}
+div{
+  display: block;
+}
+  #topNav{
+    width:100%;
+    position:sticky;
+    background-color:rgb(12, 92, 92);
+    top:0;
+    margin:0;
+    padding:0;
+    align-items:center;
+  }
+  
+  #topNav ul{
+    display:flex;
+    height:50px;
+    padding:0%;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    flex-direction:row;
+    margin:auto;
+  }
+  
+  #topNav li{
+    list-style:none;
+    font-size:2em;
+    width:10%;
+  }
+  
+  #topNav a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    padding:.4rem;
+    border-radius:20%;
+  }
+  
+  #topNav a:hover{
+    background-color:rgb(0, 255, 157);
+  }
+  #current {
+    background-color: rgb(0, 255, 157);
+  }
+
+  footer{
+    background-color:rgb(20, 152, 152);
+    margin-top:8vh;
+  }
+  
+  #footerColumn{
+    width:30%;
+    bottom: auto;
+  }
+  
+  #footerColum ul{
+    list-style-type:none;
+    align-content:left;
+  }
+  
+  #footerColum li{
+    color:white;
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+  }
+  
+  #footerColum a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+  }
+  
+  #footerColum p{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+  }
+  
+  #footerColum a:hover{
+    color:black;
+  }
+  
+  #footerColum h6{
+    text-align:center;
+    font: sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:40px;
+  }
+  #twoCards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      flex-direction: row;
+      margin: auto;
+      width: 60%;
+  }
+  #twoCard div{
+      width: 30%;
+  }
+#twoCard div{
+    width: 30%;
+}
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    left: 40%;
+    margin-left: 10%;
+    font-size: 40px;
+  }
+  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 45%;
+    font-size: 40px;
+  }
+  #paragraph{
+    font-size: 2rem;
+    width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px #00D1FF solid;
+    padding: 0.6rem;
+    border-radius: 20px;
+    background-color: #120808;
+    color: white;
+  }
+  #displayCard{
+    background-color: gray;
+    text-align: center;
+    align-content: center;
+    border: 5px #00D1FF solid;
+    border-radius: 20px;;
+  }
+  #displayCard img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+a {
+  transition: background-color 0.2s ease;
+}
+#downloadButton a{
+    text-decoration: none;
+    background-color: white;
+    font-size: 25px;
+    border: 2px #5e8dde solid;
+    padding: 0.2rem;
+    border-radius: 25px;
+}
+ul{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+#footerColum p {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+#fullRow {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: auto;
+}
+form{
+  display: block;
+}
+#Flex{
+  display: block;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#reciprent{
+  width: 100%;
+  height: 2em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #373737;
+  font-size: 20px;
+}
+#subject{
+  width: 100%;
+  height: 2em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #2e2121;
+  font-size: 20px;
+}
+#message{
+  width: 100%;
+  height: 2em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #2e2121;
+  font-size: 20px;
+}
+#sendButton{
+  color: rgb(255, 4, 0);
+  background-color: rgb(0, 0, 0);
+  font-size: 15px;
+  border: 2px rgb(0, 94, 128) solid;
+  padding: 0.2rem;
+  border-radius: 25px;
+  transition: background-color 0.2s ease;
+}
+form{
+  display: block;
+  margin-top: 0rem;
+}
+#pageCard p{
+  width:100%;
+  font-size:20px;
+  color:rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+#pageCard{
+  width:40%;
+  align-content:center;
+  text-align:center;
+  background-color:gray;
+  border: 5px aqua solid;
+  border-radius:20px;
+}
+
+#pageCard a{
+  text-decoration:none;
+  color:white;
+  font: sans-serif;
+  background-color:rgb(40, 39, 39);
+  font-size:25px;
+  border: 2px rgb(0, 0, 0) solid;
+  padding:.2rem;
+  border-radius:25px;
+  margin-bottom:1rem;
+}
+
+#pageCard a:hover{
+  background-color:rgb(235, 137, 137);
+  color:black;
+}
+
+#pageCard h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+  font-size:30px;
+}
+
+#pageCard img{
+  width:100%;
+  border-radius:20px;
+}
+
+@media screen and (max-width:480px){
+  #topNav li{
+    font-size:1em
+  }
+  #pageCard{
+    width:100%;
+  }
+}
