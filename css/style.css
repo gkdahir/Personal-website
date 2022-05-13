@@ -51,59 +51,59 @@ div{
     background-color:rgb(20, 152, 152);
     margin-top:8vh;
   }
-  
   #footerColumn{
     width:30%;
     margin-top: 8vh;
   }
-  
-  #footerColum ul{
+#footerColum ul{
     list-style-type:none;
     align-content:left;
   }
-  
-  #footerColum li{
+#footerColum li{
     color:white;
     text-align:left;
     font-family: 'Montserrat', sans-serif;
     font-size:20px;
   }
-  
-  #footerColum a{
+#footerColum a{
     text-decoration:none;
     color:white;
     font-family: 'Montserrat', sans-serif;
     font-size:20px;
   }
-  
-  #footerColum p{
+#footerColum p{
     text-decoration:none;
     color:white;
     font-family: 'Montserrat', sans-serif;
     font-size:20px;
   }
-  
-  #footerColum a:hover{
+#footerColum a:hover{
     color:black;
   }
-  
-  #footerColum h6{
+#footerColum h6{
     text-align:center;
     font: sans-serif;
     color:white;
     font-size:40px;
   }
-  #twoCards{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      flex-direction: row;
-      margin: auto;
-      width: 60%;
-  }
-  #twoCard div{
-      width: 30%;
-  }
+#footerColum p {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#twoCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    width: 60%;
+}
+#twoCard div{
+    width: 30%;
+}
 #twoCard div{
     width: 30%;
 }
@@ -160,12 +160,7 @@ ul{
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
-#footerColum p {
-  text-decoration: none;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-}
+
 #fullRow {
   width: 100%;
   display: flex;
